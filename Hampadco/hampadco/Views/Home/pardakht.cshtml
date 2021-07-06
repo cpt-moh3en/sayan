@@ -1,0 +1,24 @@
+@model ViewModelLayer.Entities.Vm_User;
+@* <form action="https://say.shaparak.ir/_ipgw_//MainTemplate/payment/" method="post">
+    <fieldset>
+        <legend>Sample data from merchant</legend>
+        <p>Token:
+            <input type="text" name="token" value="" />
+        </p>
+        <p>Token:
+            <input type="text" name="token" value="" />
+        </p>
+            <p>Lang:
+                <input type="text" name="language" value="fa"/>
+            </p>
+    </fieldset>
+    <p><input type="submit" value="Submit"/></p>
+</form> *@
+<form action="/home/p2" method="post">
+    <fieldset>
+        <p>Amount:
+            <input type="text" asp-for="Amount" />
+        </p>
+    </fieldset>
+    <button type="submit">پرداخت</button>
+</form>
